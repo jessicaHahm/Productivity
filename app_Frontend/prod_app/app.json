@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "prod_app",
+    "slug": "prod_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hybin21.Productiv"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hybin21.Productiv"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme" : "Productiv"
+  }
+}
